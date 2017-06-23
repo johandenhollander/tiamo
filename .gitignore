@@ -83,4 +83,4 @@ Thumbs.db
 .drupal_docker_toolset_project
 /docker-compose.yml
 
-.well-known
+.well-known/*
