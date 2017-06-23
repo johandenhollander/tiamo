@@ -1,0 +1,116 @@
+#block-views-klantlocaties-block-1 img {
+  max-width: unset !important;
+}
+
+.masonry-item{
+    width: 270px;
+		padding-top:0;
+		padding-bottom:0;
+		margin:0;
+		border:none;
+		background-color:transparent;
+		}
+
+.view-klantreacties .masonry-item {
+  border:2px solid #e6e6e6;
+  padding:15px;
+}
+
+.view-klantreacties .views-field-title  {
+  padding-bottom:10px;
+}
+
+.pager--infinite-scroll {
+  text-align: center;
+  background-color: #a9db7d;
+  padding:10px;
+  margin-bottom: 30px;
+}
+
+.pager--infinite-scroll .pager__item a {
+  font-size: 30px;
+  color: white;
+}
+
+#block-views-klantreacties-block-1 h2{
+  margin-bottom:40px;
+}
+
+#block-views-klantreacties-block-1 .block-inner {
+  padding: 0px;
+}
+
+#block-views-klantreacties-block-1 .views-field-title {
+  font-size: 1.5em;
+  padding-left:15px;
+}
+
+.view-display-id-block_1 .masonry-brick {
+  padding:0px;
+  border:0px;
+  margin-right: 12px;
+  min-height:500px;
+}
+
+.block-search .form-text {
+margin-bottom:10px;
+}
+
+.block-search span.button input.form-submit {
+border:3px solid #a9db7d;
+  background-color: #a9db7d;
+  transition: background-color 0.2s ease;
+  width:160px;
+  max-height: 55px;
+  text-align: center;
+  font-size: 24px;
+  color:#fff;
+  line-height:40px;
+  border-radius:0px
+}
+
+@media screen and (min-width: 1280px) {
+#header-wrapper{
+  position: fixed;
+  top:0px;
+  width: 100%;
+  z-index: 9;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+#logo img {
+  height:142px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+#header-wrapper.sticky .region-header {
+display:none;}
+
+#header-wrapper.sticky #logo img {
+height:70px;
+margin-bottom:-8px;
+
+}
+
+#header-wrapper.sticky #menu-bar-wrapper {
+  position: absolute;
+  top: 15px;
+    -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+  
+  #slideshow-wrapper {
+    margin-top:142px;
+  }  
+  
+  #main-wrapper {
+    margin-top:142px;
+  }  
+
+.front #main-wrapper {
+  margin-top: 0px;
+}
+}
