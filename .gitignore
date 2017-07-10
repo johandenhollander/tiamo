@@ -4,6 +4,7 @@
 # Ignore configuration files that may contain sensitive information.
 ######################
 sites/*/settings.php
+tmp/
 
 # Ignore sites/default folder because it is not used and causes deploy problems.
 ######################
@@ -22,6 +23,7 @@ sites/*/private/*
 !files/.htaccess
 !sites/*/files/.htaccess
 !sites/*/private/.htaccess
+!.htaccess
 
 # Ignore file type that contain large files (to avoid trouble). Optionally add or remove some extensions
 ######################
