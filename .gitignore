@@ -21,7 +21,7 @@ sites/*/private/*
 ######################
 !cache/.htaccess
 !files/.htaccess
-!sites/*/files/.htaccess    
+!sites/*/files/.htaccess
 !sites/*/private/.htaccess
 !/.htaccess
 !/.gitignore

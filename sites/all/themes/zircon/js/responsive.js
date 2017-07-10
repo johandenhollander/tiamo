@@ -1,6 +1,6 @@
 (function ($) {
   Drupal.Responsive = Drupal.Responsive || {};
-  Drupal.Responsive.supportedScreens = [0.5, 479.5, 719.5, 959.5, 1049.5];
+  Drupal.Responsive.supportedScreens = [0.5, 479.5, 719.5, 959.5, 1200.5];
   Drupal.Responsive.oldWindowWidth = 0;
   Drupal.Responsive.masonry_containers = [];
   Drupal.Responsive.masonry_widths = [];
@@ -9,7 +9,7 @@
     var windowWidth = window.innerWidth ? window.innerWidth : $(window).width();
     if ( $('#block-tb-megamenu-main-menu').length > 0 ) return;
     
-    if(windowWidth < Drupal.Responsive.supportedScreens[3]){
+    if(windowWidth < Drupal.Responsive.supportedScreens[4]){
       $('.region-menu-bar').css('display', 'none');
       $('.responsive-menu-button').css('display', 'block');
     }
