@@ -105,7 +105,7 @@ function nucleus_preprocess_html(&$vars) {
     }
     $font_str = implode("|", $font_arr);
     $font_str = str_replace(" ", "+", $font_str);
-    $url = 'http://fonts.googleapis.com/css?family=' . $font_str . "&v2";
+    $url = 'https://fonts.googleapis.com/css?family=' . $font_str . "&v2";
     drupal_add_css($url);
   }
 
